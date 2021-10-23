@@ -1,0 +1,227 @@
+.carousel-fade .carousel-item {
+	opacity: 0;
+	transition-duration: .5s;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+	opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+	opacity: 0;
+}
+
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+	transform: translateX(0);
+	transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-item {
+  height: 700px;
+}
+
+.carousel-item  img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.carousel-inner > .item > img {
+	width:640px;
+	height:360px;
+  }
+  
+   .navbar-brand {
+	/* transform: translateX(500%); */
+	left: 88%;
+	position: absolute;
+  } 
+  .navbar-brand {
+	padding: 0px;
+  }
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.carousel-caption div {
+    display:table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.categories{
+	margin: 70px 0;
+	position: center;
+}
+.col-1{
+	flex-basis:30%;
+	min-width: 250px;
+	margin-bottom: 250px;
+	position: left;
+	transition: 0.5s;
+}
+
+.container{
+max-width: 900px;
+margin: auto;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+  h2{
+	 text-align: left;
+  }
+  .title{
+	  text-align: center;
+	  margin: 0 auto 80px;
+	  position:relative;
+	  line-height: 60px;
+	  color: black;
+
+  }
+.col-1 :hover{
+	transform: translateY(-5px);
+}
+.carousel-caption { width:200px; color:#fff; text-align:left; top: 60%; left:10%; bottom:auto; -webkit-transform:translate(0, -50%); -ms-transform:translate(0, -50%); transform:translate(0, -50%); }
+
+.carousel-inner { width:auto; height: 700px}
+
+.btn {
+	background-color: #f4511e;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	opacity: 1;
+	transition: 0.3s;
+  }
+ *{margin: 0; padding: 0; box-sizing: border-box;} 
+  .btn:hover {opacity: 0.6}
+
+ .fas{
+	width: auto;
+	height: auto;
+		font-size: 90px;
+    vertical-align: middle;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+padding:10px;
+ } 
+/* 
+ footer {
+   text-align: center;
+   padding: 3px;
+   background-color: black;
+   color: white;
+   position: fixed;
+ } */
+a {
+	display: inline-block;
+	margin: 0 50px 0 0; }
+    /* margin-left: 4.564102564102564%; */
+  
+ h4{
+	text-align: center;
+	font-size: 20px;
+} 
+#ABC{
+	background-color: rgb(223, 236, 241);
+}
+
+* {box-sizing: border-box;}
+/* 
+body {font-family: Verdana, sans-serif;}  */
+.mySlides {display: none;}
+img {vertical-align: right;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activee {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 7s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.column1 {
+    float: left;
+    width: 49.33%;
+    padding: 3px;
+  }
+.column2 { 
+    float: right;
+    width: 68.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+ }
+.py-4{
+font-size: 20px;
+}
+.login-panel {  
+  margin-top: 150px;  }
+
+  
